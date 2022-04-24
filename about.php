@@ -73,7 +73,8 @@ if(!isset($user_id)){
 
 <h1 class="title">client's reviews</h1>
 
-   <div class="sl">
+<div class="swiper reviews-slider">
+
 
       <div class="swiper-wrapper">
 
