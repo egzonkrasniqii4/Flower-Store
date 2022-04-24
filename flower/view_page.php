@@ -32,6 +32,7 @@ if(isset($_POST['add_to_wishlist'])){
 
 }
 
+
 if(isset($_POST['add_to_cart'])){
 
     $product_id = $_POST['product_id'];
@@ -56,6 +57,7 @@ if(isset($_POST['add_to_cart'])){
         $message[] = 'product added to cart';
     }
 
+   
 }
 
 ?>
