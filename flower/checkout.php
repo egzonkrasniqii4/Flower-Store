@@ -31,6 +31,7 @@ if(isset($_POST['order'])){
         }
     }
 
+   
     $total_products = implode(', ',$cart_products);
 
     $order_query = mysqli_query($conn, "SELECT * FROM `orders` WHERE name = '$name' AND number = '$number' AND email = '$email' AND method = '$method' AND address = '$address' AND total_products = '$total_products' AND total_price = '$cart_total'") or die('query failed');
