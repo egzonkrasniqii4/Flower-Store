@@ -26,6 +26,7 @@ if(!isset($user_id)){
    <!-- custom admin css file link  -->
    <link rel="stylesheet" href="css/style.css">
 
+   
 </head>
 <body>
    
@@ -47,6 +48,7 @@ if(!isset($user_id)){
         if(mysqli_num_rows($select_orders) > 0){
             while($fetch_orders = mysqli_fetch_assoc($select_orders)){
     ?>
+       
     <div class="box">
         <p> placed on : <span><?php echo $fetch_orders['placed_on']; ?></span> </p>
         <p> name : <span><?php echo $fetch_orders['name']; ?></span> </p>
