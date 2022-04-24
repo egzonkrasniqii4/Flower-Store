@@ -48,6 +48,7 @@ if(isset($_GET['delete'])){
        if(mysqli_num_rows($select_message) > 0){
           while($fetch_message = mysqli_fetch_assoc($select_message)){
       ?>
+      
       <div class="box">
          <p>user id : <span><?php echo $fetch_message['user_id']; ?></span> </p>
          <p>name : <span><?php echo $fetch_message['name']; ?></span> </p>
