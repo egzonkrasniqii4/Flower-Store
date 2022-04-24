@@ -26,6 +26,7 @@ if(isset($_POST['send'])){
         $message[] = 'message sent successfully!';
     }
 
+   
 }
 
 ?>
