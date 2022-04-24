@@ -39,6 +39,7 @@ if(isset($_POST['add_product'])){
 
 }
 
+
 if(isset($_GET['delete'])){
 
    $delete_id = $_GET['delete'];
@@ -53,6 +54,7 @@ if(isset($_GET['delete'])){
 }
 
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
