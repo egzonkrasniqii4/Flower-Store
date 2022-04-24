@@ -83,6 +83,7 @@ if(isset($_POST['update_product'])){
    <a href="admin_products.php" class="option-btn">go back</a>
 </form>
 
+   
 <?php
       }
    }else{
