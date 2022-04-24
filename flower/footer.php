@@ -2,6 +2,7 @@
 
     <div class="box-container">
 
+        
         <div class="box">
             <h3>quick links</h3>
             <a href="home.php">home</a>
@@ -10,6 +11,7 @@
             <a href="shop.php">shop</a>
         </div>
 
+        
         <div class="box">
             <h3>extra links</h3>
             <a href="login.php">login</a>
