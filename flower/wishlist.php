@@ -97,6 +97,7 @@ if(isset($_GET['delete_all'])){
         <input type="hidden" name="product_image" value="<?php echo $fetch_wishlist['image']; ?>">
         <input type="submit" value="add to cart" name="add_to_cart" class="btn">
         
+       
     </form>
     <?php
     $grand_total += $fetch_wishlist['price'];
